@@ -7,12 +7,12 @@ admins = {}
 
 SESSION_NAME = getenv("SESSION_NAME", "session")
 BOT_TOKEN = getenv("BOT_TOKEN")
-BOT_NAME = getenv("BOT_NAME", "Musical") 
+BOT_NAME = getenv("BOT_NAME", "") 
 API_ID = int(getenv("API_ID"))
 API_HASH = getenv("API_HASH")
-BOT_USERNAME = getenv("BOT_USERNAME", "musical_musiccbot")
+BOT_USERNAME = getenv("BOT_USERNAME", "")
 PMPERMIT = getenv("PMPERMIT", "ENABLE")
-DURATION_LIMIT = int(getenv("DURATION_LIMIT", "70"))
+DURATION_LIMIT = int(getenv("DURATION_LIMIT", "100"))
 
 COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ !").split())
 
