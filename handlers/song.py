@@ -57,7 +57,7 @@ def bul(client, message):
             ydl.process_info(info_dict)
         rep = f"▶️ **Şarkı**: [{title[:35]}]({link})\n🔖 **Kaynak**: **YouTube**\n⏳ **Süre**: `{duration}`\n🔗 **Görünümler**: `{views}`\n✍🏻 **Tarafından**: @{BOT_USERNAME}"
         secmul, dur, dur_arr = 1, 0, duration.split(":")
-        for i in range(len(dur_arr) - 1, -1, -1):https://t.me/Sohbetttadinda
+        for i in range(len(dur_arr) - 1, -1, -1)
             dur += int(dur_arr[i]) * secmul
             secmul *= 60
         message.reply_audio(
